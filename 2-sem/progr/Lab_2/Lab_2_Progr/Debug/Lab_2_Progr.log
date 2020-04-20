@@ -1,0 +1,7 @@
+﻿  Lab_2_Progr.cpp
+H:\IT\Mine\Labs\2_semester\Lab_2_Progr\Lab_2_Progr\Lab_2_Progr.cpp(16,14): warning C4129: 'M': unrecognized character escape sequence
+H:\IT\Mine\Labs\2_semester\Lab_2_Progr\Lab_2_Progr\Lab_2_Progr.cpp(73,15): warning C4129: 'I': unrecognized character escape sequence
+H:\IT\Mine\Labs\2_semester\Lab_2_Progr\Lab_2_Progr\Lab_2_Progr.cpp(73,15): warning C4129: 'M': unrecognized character escape sequence
+H:\IT\Mine\Labs\2_semester\Lab_2_Progr\Lab_2_Progr\Lab_2_Progr.cpp(73,15): warning C4129: 'L': unrecognized character escape sequence
+H:\IT\Mine\Labs\2_semester\Lab_2_Progr\Lab_2_Progr\Lab_2_Progr.cpp(268,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Lab_2_Progr.vcxproj -> H:\IT\Mine\Labs\2_semester\Lab_2_Progr\Debug\Lab_2_Progr.exe

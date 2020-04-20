@@ -1,0 +1,3 @@
+﻿  Lab_1_Alg_Str.cpp
+F:\IT\Mine\Labs\2_semester\Lab_1_Alg_Str\Lab_1_Alg_Str\Lab_1_Alg_Str.cpp(189,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Lab_1_Alg_Str.vcxproj -> F:\IT\Mine\Labs\2_semester\Lab_1_Alg_Str\Debug\Lab_1_Alg_Str.exe

@@ -1,0 +1,3 @@
+﻿  Lab_1_APZ.cpp
+H:\IT\Mine\Labs\2_semester\Lab_1_APZ\Lab_1_APZ\Lab_1_APZ.cpp(13,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Lab_1_APZ.vcxproj -> H:\IT\Mine\Labs\2_semester\Lab_1_APZ\Debug\Lab_1_APZ.exe
