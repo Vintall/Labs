@@ -48,32 +48,32 @@ int Task8()
 	system("cls");
 	if (arr_len < 0)
 		return -1;
-	int first_count = 0;
-	for (int i = 0; i < arr_len; i++)
-		if (arr[i] != ' ')
-			first_count++;
-		else break;
-	char arr_buff[200];
-	int arr_buff_len = 0;
+
 	cout << arr << endl << endl;
-	for (int i = first_count; i < arr_len; i++)
+
+	char first_ch = arr[0];
+
+	for (int i = 2; i < arr_len; i++)
 	{
-		if (arr[i] != ' ')
+		if (arr[i - 1] == ' ')
 		{
-			arr_buff_len++;
-			arr_buff[arr_buff_len - 1] = arr[i];
-		}
-		else
-		{
-			if (arr_buff_len == first_count)
+			if (arr[i] == first_ch)
 			{
-				for (int k = 0; k < arr_buff_len; k++)
+				for (int j = i; j < arr_len; j++)
 				{
-					cout << arr_buff[k];
-			    }
+					if (arr[j] != ' ')
+					{
+						cout << arr[j];
+						arr[j] = ' ';
+					}
+					else
+					{
+						i = j-1;
+						break;
+					}
+				}
 				cout << endl;
 			}
-		arr_buff_len = 0;
 		}
 	}
 
