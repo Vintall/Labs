@@ -4,6 +4,7 @@ using namespace std;
 void Menu();
 void AddElem();
 void RMElem();
+void ShowElem();
 
 struct Sll  //Singly linked list
 {
@@ -27,28 +28,43 @@ void AddElem(int elem_)
 void RMElem(int ind)
 {
 	Sll* buff = sll;
-	for (int i = 0; i < ind; i++)
+	Sll* prev = NULL;
+	for (int i = 1; i != ind;)
 	{
-		if (buff->next == NULL)
+		if (buff->next != NULL)
+		{
+			prev = buff;
+			buff = buff->next;
+			i++;
+		}
+		else
 		{
 			cout << "Такого элемента не существует" << endl;
 			system("Pause");
 			break;
 		}
-		else
-		{
-			if (i == ind - 1 && buff->next->next != NULL)
-			{
-				buff->next = buff->next->next;
-				break;
-			}
-			else
-				buff = buff->next;
-		}
+	}
+	if (prev == NULL)
+	{
+		buff = sll->next;
+		delete(sll);
+		sll = buff;
+	}
+	else if (buff->next == NULL)
+	{
+		delete(buff);
+		prev->next = NULL;
+	}
+	else
+	{
+		prev->next = buff->next;
+		delete(buff);
 	}
 }
 void Task()
 {
+	ShowElem();
+
 	int count = 0;
 	Sll* buff = sll;
 	for (int i = 1; buff->next!=NULL ; i++)
@@ -56,10 +72,12 @@ void Task()
 		buff = buff->next;
 		if (i % 3 == 0)
 		{ 
-			count++;
 			RMElem(i-count);
+			count++;
 		}
 	}
+	cout << endl << endl;
+	ShowElem();
 }
 void ShowElem()
 {
