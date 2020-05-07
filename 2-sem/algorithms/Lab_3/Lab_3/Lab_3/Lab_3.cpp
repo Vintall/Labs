@@ -10,18 +10,31 @@ struct Sll  //Singly linked list
 {
 	int elem;
 	Sll* next;
+public:
+	Sll()
+	{
+		next = NULL;
+	}
 };
-Sll *sll;
+Sll* sll;
 
 void AddElem(int elem_)
 {
-	Sll* x = new Sll;
-	x->elem = elem_;
-	x->next = sll;
-	
-	Sll* buff = x;
-	x = sll;
-	sll = buff;
+	if (sll != NULL)
+	{
+		Sll* x = new Sll;
+		x->elem = elem_;
+		x->next = sll;
+
+		Sll* buff = x;
+		x = sll;
+		sll = buff;
+	}
+	else
+	{
+		sll = new Sll();
+		sll->elem = elem_;
+	}
 }
 
 
@@ -29,6 +42,7 @@ void RMElem(int ind)
 {
 	Sll* buff = sll;
 	Sll* prev = NULL;
+	bool ident = 1;
 	for (int i = 1; i != ind;)
 	{
 		if (buff->next != NULL)
@@ -40,10 +54,12 @@ void RMElem(int ind)
 		else
 		{
 			cout << "Такого элемента не существует" << endl;
+			ident = 0;
 			system("Pause");
 			break;
 		}
 	}
+	if(ident)
 	if (prev == NULL)
 	{
 		buff = sll->next;
@@ -82,7 +98,7 @@ void Task()
 void ShowElem()
 {
 	Sll* buff = sll;
-	for (int i = 0; buff->next != NULL; i++)
+	for (int i = 1; buff != NULL; i++)
 	{
 		cout << buff->elem << endl;
 		buff = buff->next;
@@ -90,24 +106,33 @@ void ShowElem()
 }
 void RMSll()
 {
-	Sll* buff1 = sll->next;
-	Sll* buff2 = buff1->next;
-	if (buff1 != NULL)
+	if(sll != NULL)
+	if (sll->next == NULL)
+	{
+		RMElem(1);
+		sll = NULL;
+		return;
+	}
+	else
+	{
+		Sll* buff1 = sll;
+		Sll* buff2 = buff1->next;
 		for (; buff2->next != NULL;)
 		{
 			delete(buff1);
 			buff1 = buff2;
 			buff2 = buff2->next;
 		}
-	delete(buff2);
-	sll->next = NULL;
+		delete(buff1);
+		sll = NULL;
+	}
 }
 
 int main()
 {
 	setlocale(LC_ALL, "Russian");
 	sll = new Sll;
-	sll->next = NULL;
+	sll = NULL;
 	Menu();
 	system("Pause");
 }

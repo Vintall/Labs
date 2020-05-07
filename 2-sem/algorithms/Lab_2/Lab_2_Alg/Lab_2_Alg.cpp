@@ -21,6 +21,23 @@ int main()
 	system("Pause");
 }
 
+void AddElem(int elem)
+{
+
+}
+void RMElem(int num_of_elem)
+{
+
+}
+void RMQueue()
+{
+
+}
+void ShowQueue()
+{
+
+}
+
 void Menu()
 {
 	bool menu_i = true;
@@ -42,19 +59,22 @@ void Menu()
 		{
 		case 1:
 			cout << "¬ведите элемент" << endl;
-			
+			int el; cin >> el; cout << endl;
+			AddElem(el);
 			system("Pause");
 			break;
 		case 2:
-			
+			cout << "¬ведите номер элемента, который хотите удалить" << endl;
+			int n; cin >> n; cout << endl;
+			RMElem(n);
 			system("Pause");
 			break;
 		case 3:
-			
+			ShowQueue();
 			system("Pause");
 			break;
 		case 4:
-			
+			RMQueue();
 			system("Pause");
 			break;
 		case 5:
