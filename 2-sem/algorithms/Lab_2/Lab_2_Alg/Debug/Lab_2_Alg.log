@@ -1,3 +1,4 @@
 ﻿  Lab_2_Alg.cpp
-C:\Users\Vintall\Desktop\Lab_2_Alg\Lab_2_Alg\Lab_2_Alg.cpp(54,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Lab_2_Alg.vcxproj -> C:\Users\Vintall\Desktop\Lab_2_Alg\Debug\Lab_2_Alg.exe
+C:\Users\Vintall\Desktop\Labs\2-sem\algorithms\Lab_2\Lab_2_Alg\Lab_2_Alg.cpp(59,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Vintall\Desktop\Labs\2-sem\algorithms\Lab_2\Lab_2_Alg\Lab_2_Alg.cpp(61,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Lab_2_Alg.vcxproj -> C:\Users\Vintall\Desktop\Labs\2-sem\algorithms\Lab_2\Debug\Lab_2_Alg.exe
