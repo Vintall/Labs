@@ -1,0 +1,3 @@
+﻿  Lab_9.cpp
+C:\Users\Vintall\Desktop\Labs\others\Bodya\Lab_9\Lab_9\Lab_9.cpp(17,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Lab_9.vcxproj -> C:\Users\Vintall\Desktop\Labs\others\Bodya\Lab_9\Debug\Lab_9.exe
