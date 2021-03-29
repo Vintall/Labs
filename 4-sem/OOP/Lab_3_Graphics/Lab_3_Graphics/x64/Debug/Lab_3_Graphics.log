@@ -1,0 +1,9 @@
+﻿  Lab_3_Graphics.cpp
+  Map.cpp
+  Polygon.cpp
+C:\Users\Vintall\Desktop\Lab_3_Graphics\Lab_3_Graphics\Polygon.cpp(12,12): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  Prog_Manager.cpp
+C:\Users\Vintall\Desktop\Lab_3_Graphics\Lab_3_Graphics\Prog_Manager.cpp(279,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\Lab_3_Graphics\Lab_3_Graphics\Prog_Manager.cpp(303,38): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Создание кода...
+  Lab_3_Graphics.vcxproj -> C:\Users\Vintall\Desktop\Lab_3_Graphics\x64\Debug\Lab_3_Graphics.exe
