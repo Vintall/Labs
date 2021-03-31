@@ -1,0 +1,10 @@
+C:\Users\Vintall\Desktop\Methods_Lab_1\Methods_Lab_1\bin\Debug\Methods_Lab_1.exe.config
+C:\Users\Vintall\Desktop\Methods_Lab_1\Methods_Lab_1\bin\Debug\Methods_Lab_1.exe
+C:\Users\Vintall\Desktop\Methods_Lab_1\Methods_Lab_1\bin\Debug\Methods_Lab_1.pdb
+C:\Users\Vintall\Desktop\Methods_Lab_1\Methods_Lab_1\obj\Debug\Methods_Lab_1.csprojAssemblyReference.cache
+C:\Users\Vintall\Desktop\Methods_Lab_1\Methods_Lab_1\obj\Debug\Methods_Lab_1.Form1.resources
+C:\Users\Vintall\Desktop\Methods_Lab_1\Methods_Lab_1\obj\Debug\Methods_Lab_1.Properties.Resources.resources
+C:\Users\Vintall\Desktop\Methods_Lab_1\Methods_Lab_1\obj\Debug\Methods_Lab_1.csproj.GenerateResource.cache
+C:\Users\Vintall\Desktop\Methods_Lab_1\Methods_Lab_1\obj\Debug\Methods_Lab_1.csproj.CoreCompileInputs.cache
+C:\Users\Vintall\Desktop\Methods_Lab_1\Methods_Lab_1\obj\Debug\Methods_Lab_1.exe
+C:\Users\Vintall\Desktop\Methods_Lab_1\Methods_Lab_1\obj\Debug\Methods_Lab_1.pdb
