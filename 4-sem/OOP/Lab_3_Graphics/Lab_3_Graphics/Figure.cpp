@@ -3,5 +3,5 @@
 
 Figure::Figure()
 {
-	type = 1;
+	
 }

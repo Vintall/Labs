@@ -9,6 +9,8 @@ public:
 	Map map;
 	Prog_Manager();
 	RenderWindow window;
+	std::vector <Figure> traccer;
+	bool movement_traccer = false;
 	void WindowCheck();
 	void Draw();
 	int Main();
@@ -19,9 +21,14 @@ public:
 	int AddingLine();
 
 	int ChoosingObj();
-	int ObjSettings();
+	void Move(int num);
+	void Scale(int num);
+	void Agregat(int num);
+	void Delete(int num);
+	int ObjSettings(int num);
+	void TrajectoryMovement(int num);
 
-	int ChangeColor();
+	void ChangeColor_(int num);
 	
 	int GetKey();
 	int GetKeyDown();
