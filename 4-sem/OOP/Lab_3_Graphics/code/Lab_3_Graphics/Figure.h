@@ -70,22 +70,26 @@ public:
 	virtual void TrajectoryForward(int i)
 	{
 		if (i >= 0 && i < trajectory.size())
+		{
 			if (is_agregat)
 			{
 				for (int j = 0; j < obj.size(); j++)
 					obj[j].TrajectoryForward(i);
 			}
-				shape.move(trajectory[i]);
+			shape.move(trajectory[i]);
+		}
 	}
 	virtual void TrajectoryBack(int i)
 	{
 		if (i >= 0 && i < trajectory.size())
+		{
 			if (is_agregat)
 			{
 				for (int j = 0; j < obj.size(); j++)
 					obj[j].TrajectoryBack(i);
 			}
-				shape.move(-trajectory[i]);
+			shape.move(-trajectory[i]);
+		}
 	}
 	virtual void Scale(float scaler)
 	{

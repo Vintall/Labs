@@ -824,6 +824,7 @@ void Prog_Manager::TrajectoryMovement(int num)
 
 				if (tr_cur != tr_count)
 					tr_cur++;
+
 				map.obj[num].TrajectoryForward(tr_cur);
 			}
 		}
