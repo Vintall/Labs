@@ -888,6 +888,7 @@ int Prog_Manager::Load()
 	vector <string> massive_buf;
 	ifstream in(file_name);
 	Figure obj;
+	map.obj.clear();
 	while (getline(in, buf))
 	{
 		massive_buf = split(buf, " ");

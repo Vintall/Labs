@@ -24,5 +24,5 @@ Star::Star(std::string name, int ray_count, float r1, float r2)
 			shape.setPoint(i, point);
 		}
 	}
-	ChangeCol(0, 0, 250);
+	ChangeCol(0, 250, 0);
 }

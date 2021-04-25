@@ -18,5 +18,5 @@ Polygon::Polygon(std::string name, Vector2f pos, float radius, int count)
 		point.y = -1 * first_point.x * sin(ang * i) + first_point.y * cos(ang * i);
 		shape.setPoint(i, point);
 	}
-	ChangeCol(0, 0, 250);
+	ChangeCol(0, 250, 0);
 }

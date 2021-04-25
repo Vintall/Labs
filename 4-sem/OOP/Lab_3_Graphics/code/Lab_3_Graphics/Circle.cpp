@@ -16,7 +16,6 @@ Circle::Circle(std::string name, Vector2f pos, float radius)
 		point.y = -1 * first_point.x * sin(ang * i) + first_point.y * cos(ang * i);
 		shape.setPoint(i, point);
 	}
-	shape.move(Vector2f(-radius, -radius));
 	shape.move(pos);
 	ChangeCol(0, 250, 0);
 }
