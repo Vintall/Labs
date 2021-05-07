@@ -1,0 +1,33 @@
+﻿  Prog_Manager.cpp
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3_Graphics\code\Lab_3_Graphics\Prog_Manager.cpp(279,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3_Graphics\code\Lab_3_Graphics\Prog_Manager.cpp(291,38): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3_Graphics\code\Lab_3_Graphics\Prog_Manager.cpp(427,18): warning C4305: -=: усечение из "double" в "float"
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3_Graphics\code\Lab_3_Graphics\Prog_Manager.cpp(431,18): warning C4305: +=: усечение из "double" в "float"
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3_Graphics\code\Lab_3_Graphics\Prog_Manager.cpp(741,47): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3_Graphics\code\Lab_3_Graphics\Prog_Manager.cpp(899,52): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3_Graphics\code\Lab_3_Graphics\Prog_Manager.cpp(899,30): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3_Graphics\code\Lab_3_Graphics\Prog_Manager.cpp(910,57): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3_Graphics\code\Lab_3_Graphics\Prog_Manager.cpp(910,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3_Graphics\code\Lab_3_Graphics\Prog_Manager.cpp(916,75): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3_Graphics\code\Lab_3_Graphics\Prog_Manager.cpp(916,45): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3_Graphics\code\Lab_3_Graphics\Prog_Manager.cpp(929,52): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3_Graphics\code\Lab_3_Graphics\Prog_Manager.cpp(929,30): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3_Graphics\code\Lab_3_Graphics\Prog_Manager.cpp(933,70): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3_Graphics\code\Lab_3_Graphics\Prog_Manager.cpp(933,40): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+  Lab_3_Graphics.vcxproj -> C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3_Graphics\code\x64\Debug\Lab_3_Graphics.exe

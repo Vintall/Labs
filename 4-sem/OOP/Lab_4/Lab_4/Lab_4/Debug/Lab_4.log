@@ -1,0 +1,5 @@
+﻿  Lab_4.cpp
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_4\Lab_4\Lab_4\Lab_4.cpp(17,5): error C2065: include: необъявленный идентификатор
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_4\Lab_4\Lab_4\Lab_4.cpp(17,7): error C2062: тип "int" не требуется
+  Queue.cpp
+  Создание кода...
