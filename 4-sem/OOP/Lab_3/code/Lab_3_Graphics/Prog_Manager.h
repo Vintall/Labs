@@ -22,6 +22,7 @@ public:
 	int AddingPoly();
 	int AddingCircle();
 	int AddingStar();
+	int AddElseFig();
 
 	int ChoosingObj();
 	void Move(int num);

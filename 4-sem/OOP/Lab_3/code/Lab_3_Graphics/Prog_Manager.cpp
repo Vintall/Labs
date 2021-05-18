@@ -84,7 +84,9 @@ void Prog_Manager::Controller()
 		case 7:
 			menu_num = AddingStar();
 			break;
-
+		case 8:
+			menu_num = AddElseFig();
+			break;
 		default:
 			menu_num = -1;
 			break;
@@ -230,6 +232,7 @@ int Prog_Manager::AddingObj()
 		MenuPrinter("Добавить Многоугольник",	choice == 3);
 		MenuPrinter("Добавить Круг",			choice == 4);
 		MenuPrinter("Добавить Звезду",			choice == 5);
+		MenuPrinter("Add Else", choice == 6);
 
 		while (1)
 		{
@@ -244,20 +247,22 @@ int Prog_Manager::AddingObj()
 			}
 			else if (key[39]) // RIGHT
 			{
-				if (choice == 1) 
+				if (choice == 1)
 					return -1;
-				else if (choice == 2) 
+				else if (choice == 2)
 					return 0;
-				else if (choice == 3) 
+				else if (choice == 3)
 					return 5;
-				else if (choice == 4) 
+				else if (choice == 4)
 					return 6;
-				else if (choice == 5) 
+				else if (choice == 5)
 					return 7;
+				else if (choice == 6)
+					return 8;
 			}
 			else if (key[40]) // DOWN
 			{ 
-				if (choice != 5) 
+				if (choice != 6) 
 					choice++; 
 				break; 
 			}
@@ -304,6 +309,11 @@ int Prog_Manager::AddingStar()
 	cout << "Введите количество лучей звезды: "; cin >> ray_num; cout << endl;
 
 	map.AddFigure(name, ray_num, r1, r2);
+	return 0;
+}
+int Prog_Manager::AddElseFig()  //------
+{
+
 	return 0;
 }
 int Prog_Manager::ChoosingObj()
