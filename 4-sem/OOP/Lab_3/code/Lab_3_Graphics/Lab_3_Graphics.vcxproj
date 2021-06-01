@@ -146,6 +146,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="ElseFigure.cpp" />
     <ClCompile Include="Figure.cpp" />
     <ClCompile Include="Lab_3_Graphics.cpp" />
     <ClCompile Include="Map.cpp" />
@@ -157,6 +158,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle.h" />
+    <ClInclude Include="ElseFigure.h" />
     <ClInclude Include="Figure.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="MyShape.h" />

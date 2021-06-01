@@ -1,38 +1,147 @@
-﻿  Lab_3_Graphics.cpp
+﻿  Circle.cpp
+  ElseFigure.cpp
+  Figure.cpp
+  Lab_3_Graphics.cpp
   Map.cpp
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Map.cpp(15): error C2102: для "&" требуется левостороннее значение
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Map.cpp(19): error C2102: для "&" требуется левостороннее значение
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Map.cpp(23): error C2102: для "&" требуется левостороннее значение
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Map.cpp(27): error C2102: для "&" требуется левостороннее значение
   Polygon.cpp
   Prog_Manager.cpp
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(284,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(296,38): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(437,18): warning C4305: -=: усечение из "double" в "float"
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(441,18): warning C4305: +=: усечение из "double" в "float"
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(751,47): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(909,52): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(909,30): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(920,57): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(920,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(926,75): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(286,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(298,38): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(319,19): warning C4305: аргумент: усечение из "double" в "_Ty"
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(343,27): error C2228: выражение слева от ".name" должно представлять класс, структуру или объединение
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(343,27): message : тип: _Ty
+          with
+          [
+              _Ty=Figure *
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(343,27): message : возможно, имеется в виду "->"
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(422,70): error C2440: <function-style-cast>: невозможно преобразовать "initializer list" в "Circle"
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(422,70): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(447,18): warning C4305: -=: усечение из "double" в "float"
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(451,18): warning C4305: +=: усечение из "double" в "float"
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(525,37): error C2664: "void std::vector<Figure,std::allocator<Figure>>::push_back(const _Ty &)": невозможно преобразовать аргумент 1 из "_Ty" в "const _Ty &"
+          with
+          [
+              _Ty=Figure
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(525,37): message : Причина: невозможно преобразовать "_Ty" в "const _Ty"
+          with
+          [
+              _Ty=Figure *
+          ]
+          and
+          [
+              _Ty=Figure
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(525,37): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vector(723,10): message : см. объявление "std::vector<Figure,std::allocator<Figure>>::push_back"
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(539,44): error C2664: "void std::vector<Figure,std::allocator<Figure>>::push_back(const _Ty &)": невозможно преобразовать аргумент 1 из "_Ty" в "const _Ty &"
+          with
+          [
+              _Ty=Figure
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(539,44): message : Причина: невозможно преобразовать "_Ty" в "const _Ty"
+          with
+          [
+              _Ty=Figure *
+          ]
+          and
+          [
+              _Ty=Figure
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(539,44): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vector(723,10): message : см. объявление "std::vector<Figure,std::allocator<Figure>>::push_back"
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(544,27): error C2664: "void std::vector<Figure *,std::allocator<Figure *>>::push_back(const _Ty &)": невозможно преобразовать аргумент 1 из "Figure" в "const _Ty &"
+          with
+          [
+              _Ty=Figure *
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(544,27): message : Причина: невозможно преобразовать "Figure" в "const _Ty"
+          with
+          [
+              _Ty=Figure *
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(544,24): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vector(723,10): message : см. объявление "std::vector<Figure *,std::allocator<Figure *>>::push_back"
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(559,30): error C2440: инициализация: невозможно преобразовать "std::vector<Figure *,std::allocator<Figure *>>" в "std::vector<Figure,std::allocator<Figure>>"
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(559,21): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(564,27): error C2664: "void std::vector<Figure *,std::allocator<Figure *>>::push_back(const _Ty &)": невозможно преобразовать аргумент 1 из "_Ty" в "const _Ty &"
+          with
+          [
+              _Ty=Figure *
+          ]
+          and
+          [
+              _Ty=Figure
+          ]
+          and
+          [
+              _Ty=Figure *
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(564,27): message : Причина: невозможно преобразовать "_Ty" в "const _Ty"
+          with
+          [
+              _Ty=Figure
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(564,26): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vector(723,10): message : см. объявление "std::vector<Figure *,std::allocator<Figure *>>::push_back"
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(919,52): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(919,30): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(930,57): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(930,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(936,75): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
           with
           [
               T=float
           ]
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(926,45): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(936,45): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
           with
           [
               T=float
           ]
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(939,52): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(939,30): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(943,70): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(942,25): error C2664: "void std::vector<Figure *,std::allocator<Figure *>>::push_back(const _Ty &)": невозможно преобразовать аргумент 1 из "Figure" в "const _Ty &"
+          with
+          [
+              _Ty=Figure *
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(942,25): message : Причина: невозможно преобразовать "Figure" в "const _Ty"
+          with
+          [
+              _Ty=Figure *
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(942,22): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vector(723,10): message : см. объявление "std::vector<Figure *,std::allocator<Figure *>>::push_back"
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(949,52): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(949,30): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(953,70): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
           with
           [
               T=float
           ]
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(943,40): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(953,40): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
           with
           [
               T=float
           ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(955,25): error C2664: "void std::vector<Figure *,std::allocator<Figure *>>::push_back(const _Ty &)": невозможно преобразовать аргумент 1 из "Figure" в "const _Ty &"
+          with
+          [
+              _Ty=Figure *
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(955,25): message : Причина: невозможно преобразовать "Figure" в "const _Ty"
+          with
+          [
+              _Ty=Figure *
+          ]
+C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\Lab_3_Graphics\Prog_Manager.cpp(955,22): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vector(723,10): message : см. объявление "std::vector<Figure *,std::allocator<Figure *>>::push_back"
   Star.cpp
   Создание кода...
-  Lab_3_Graphics.vcxproj -> C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_3\code\x64\Debug\Lab_3_Graphics.exe

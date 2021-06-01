@@ -42,6 +42,9 @@
     <ClCompile Include="Star.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="ElseFigure.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Figure.h">
@@ -66,6 +69,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Star.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ElseFigure.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

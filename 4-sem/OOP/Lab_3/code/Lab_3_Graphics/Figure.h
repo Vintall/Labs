@@ -23,7 +23,6 @@ public:
 			{
 				shape.move(-trajectory[k]);
 			}
-
 		}
 		else
 		{
@@ -93,7 +92,6 @@ public:
 	}
 	virtual void Scale(float scaler)
 	{
-		
 		if (is_agregat)
 		{
 			bool can_resize = true;

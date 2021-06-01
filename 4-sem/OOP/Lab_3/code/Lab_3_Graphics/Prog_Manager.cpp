@@ -5,6 +5,8 @@
 #include <string>
 #include "Circle.h"
 #include <fstream>
+#include <typeinfo>
+#include "ElseFigure.h"
 
 using namespace std;
 
@@ -313,7 +315,15 @@ int Prog_Manager::AddingStar()
 }
 int Prog_Manager::AddElseFig()  //------
 {
-
+	vector<float> asd;
+	asd.push_back(1.1);
+	map.AddFigure("123", asd);
+	if (typeid(map.obj[map.obj.size() - 1]).name() == "ElseFigure")
+	{
+		ElseFigure* dsa = (ElseFigure*)map.obj[map.obj.size() - 1];
+		dsa->SaySomething();
+	}
+	system("Pause");
 	return 0;
 }
 int Prog_Manager::ChoosingObj()
