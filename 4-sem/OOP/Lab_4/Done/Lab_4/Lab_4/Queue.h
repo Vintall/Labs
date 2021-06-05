@@ -74,10 +74,5 @@ namespace none_std
 		{
 			cells.pop();
 		}
-		void swap(queue& que)
-		{
-
-		}
 	};
-	
 }

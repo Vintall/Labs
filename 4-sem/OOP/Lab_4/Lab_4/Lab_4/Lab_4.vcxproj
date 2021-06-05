@@ -140,11 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Lab_4.cpp" />
+    <ClCompile Include="MyVector.cpp" />
     <ClCompile Include="Queue.cpp" />
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="TaskAndDialogs.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MyVector.h" />
     <ClInclude Include="Queue.h" />
     <ClInclude Include="Stack.h" />
     <ClInclude Include="TaskAndDialogs.h" />

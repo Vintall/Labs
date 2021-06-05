@@ -340,7 +340,7 @@ int Prog_Manager::ChoosingObj()
 		MenuPrinter("Назад", choice == 2);
 		for (int i = 0; i < map.obj.size(); i++)
 		{
-			MenuPrinter(map.obj[i].name, choice == i+3);
+			MenuPrinter(map.obj[i]., choice == i+3);
 		}
 
 		while (1)
