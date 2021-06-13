@@ -9,6 +9,14 @@ namespace none_std
 		stack<T> cells;
 		stack<T> buff;
 	public:
+		typename stack<T>::iterator begin()
+		{
+			return cells.begin();
+		}
+		typename stack<T>::iterator end()
+		{
+			return cells.end();
+		}
 		bool empty()
 		{
 			return cells.empty();

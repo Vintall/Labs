@@ -1,8 +1,8 @@
 #pragma once
 #include <iostream>
 #include "MyVector.h"
-
-#define WITH_STD
+#include <algorithm>
+//#define WITH_STD
 
 #ifdef WITH_STD
 #include <queue>
@@ -11,11 +11,8 @@ using namespace std;
 #else
 #include "Queue.h"
 using namespace none_std;
-#endif // WITH_STD
+#endif
 
-#define cout std::cout
-#define cin std::cin
-#define endl std::endl
 
 template <typename T>
 class TaskAndDialogs
@@ -31,13 +28,13 @@ public:
 	}
 	void MainMenu()
 	{
-		cout << "1) Работа с queue (2 stack's)" << endl;
-		cout << "2) Работа с vector (iterator)" << endl;
-		cout << "3) Выйти" << endl;
-		cout << "Выберите пункт меню: ";
+		std::cout << "1) queue (2 stack's)" << std::endl;
+		std::cout << "2) vector (iterator)" << std::endl;
+		std::cout << "3) Exit" << std::endl;
+		std::cout << "Choose a menu item: ";
 
 		int choice = -1;
-		cin >> choice;
+		std::cin >> choice;
 		system("cls");
 		if (choice == 1)
 		{
@@ -55,20 +52,21 @@ public:
 		int while_checker = 1;
 		while (while_checker)
 		{
-			cout << "1) Добавить новый элемент" << endl;
-			cout << "2) Очистить vector" << endl;
-			cout << "3) Вывести vector" << endl;
-			cout << "4) Выйти в MainMenu" << endl;
+			std::cout << "1) Add new element" << std::endl;
+			std::cout << "2) Clear vector" << std::endl;
+			std::cout << "3) Show vector" << std::endl;
+			std::cout << "4) Go back to Main Menu" << std::endl;
 
-			cout << "Выберите пункт меню: ";
+			std::cout << "Choose a menu item: ";
 			int choice = -1;
-			cin >> choice;
+			std::cin >> choice;
 			switch (choice)
 			{
 			case 1:
 				T elem;
-				cout << "Введите элемент: ";
-				cin >> elem; cout << endl;
+				std::cout << "Enter element: ";
+				std::cin >> elem; 
+				std::cout << std::endl;
 				vec.push_back(elem);
 				break;
 			case 2:
@@ -79,7 +77,7 @@ public:
 				typename MyVec::vector<T> ::iterator iter = vec.begin();
 				while (iter != vec.end())
 				{
-					cout << *iter << endl;
+					std::cout << *iter << std::endl;
 					iter++;
 				}
 				system("Pause");
@@ -97,15 +95,15 @@ public:
 		int while_checker = 1;
 		while (while_checker)
 		{
-			cout << "1) Добавить новый элемент" << endl;
-			cout << "2) Очистить очередь" << endl;
-			cout << "3) Вывести очередь" << endl;
-			cout << "4) Вывести сумму" << endl;
-			cout << "5) Выйти в MainMenu" << endl;
+			std::cout << "1) Add new element" << std::endl;
+			std::cout << "2) Clear queue" << std::endl;
+			std::cout << "3) Show queue" << std::endl;
+			std::cout << "4) Sum of elements" << std::endl;
+			std::cout << "5) Go back to Main Menu" << std::endl;
 
-			cout << "Выберите пункт меню: ";
+			std::cout << "Choose a menu item: ";
 			int choice = -1;
-			cin >> choice;
+			std::cin >> choice;
 			switch (choice)
 			{
 			case 1:
@@ -119,7 +117,7 @@ public:
 				system("Pause");
 				break;
 			case 4:
-				cout << Sum() << endl;
+				std::cout << Sum() << std::endl;
 				system("Pause");
 				break;
 			default:
@@ -131,40 +129,64 @@ public:
 	}
 	T Sum()
 	{
-		queue<T> buf = container;
-		T sum = 0;
-		int count = container.size();
-		for (int i = 0; i < count; i++)
+		if (container.begin() != container.end())
 		{
-			sum += buf.front();
-			buf.pop();
+			queue<T> buf = container;
+			T sum = 0;
+			int count = container.size();
+			for (int i = 0; i < count; i++)
+			{
+				sum += buf.front();
+				buf.pop();
+			}
+			return sum;
 		}
-		return sum;
+		else
+			return 0;
 	}
 	void ShowQueue()
 	{
 		int size = container.size();
-		for (int i = 0; i < size; i++)
+		typename stack<T>::iterator i;
+		typename stack<T>::iterator i_end=container.end();
+
+
+		for (i = container.begin(); i != i_end; i++)
 		{
 			T buf;
 			buf = container.front();
 			container.pop();
-			cout << buf << endl;
+			std::cout << buf << std::endl;
 			container.push(buf);
 		}
+
+
+		//for (int i = 0; i < size; i++)
+		//{
+		//	T buf;
+		//	buf = container.front();
+		//	container.pop();
+		//	std::cout << buf << std::endl;
+		//	container.push(buf);
+		//}
 	}
 	void AddNewElem()
 	{
-		cout << "Введите новый элемент: ";
+		std::cout << "Elter element: ";
 		T new_elem;
-		cin >> new_elem;
-		cout << endl;
+		std::cin >> new_elem;
+		std::cout << std::endl;
 		container.push(new_elem);
 	}
 	void Clear()
 	{
 		int size = container.size();
-		for (int i = 0; i < size; i++)
+		typename stack<T>::iterator i;
+		typename stack<T>::iterator i_end = container.end();
+		//for (int i = 0; i < size; i++)
+		//	container.pop();
+
+		for (i = container.begin(); i != i_end; i++)
 			container.pop();
 	}
 };

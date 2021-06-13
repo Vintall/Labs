@@ -1,24 +1,4 @@
 ﻿  Lab_4.cpp
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_4\Lab_4\Lab_4\TaskAndDialogs.h(166,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_4\Lab_4\Lab_4\TaskAndDialogs.h(165): message : во время компиляции функции-члена класс шаблон "void TaskAndDialogs<double>::Clear(void)"
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_4\Lab_4\Lab_4\TaskAndDialogs.h(115): message : выполняется компиляция ссылки на экземпляр шаблон функции "void TaskAndDialogs<double>::Clear(void)"
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_4\Lab_4\Lab_4\Lab_4.cpp(19): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "TaskAndDialogs<double>"
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_4\Lab_4\Lab_4\TaskAndDialogs.h(146,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_4\Lab_4\Lab_4\TaskAndDialogs.h(145): message : во время компиляции функции-члена класс шаблон "void TaskAndDialogs<double>::ShowQueue(void)"
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_4\Lab_4\Lab_4\TaskAndDialogs.h(118): message : выполняется компиляция ссылки на экземпляр шаблон функции "void TaskAndDialogs<double>::ShowQueue(void)"
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_4\Lab_4\Lab_4\TaskAndDialogs.h(136,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_4\Lab_4\Lab_4\TaskAndDialogs.h(133): message : во время компиляции функции-члена класс шаблон "T TaskAndDialogs<T>::Sum(void)"
-          with
-          [
-              T=double
-          ]
-C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_4\Lab_4\Lab_4\TaskAndDialogs.h(122): message : выполняется компиляция ссылки на экземпляр шаблон функции "T TaskAndDialogs<T>::Sum(void)"
-          with
-          [
-              T=double
-          ]
-  MyVector.cpp
-  Queue.cpp
   TaskAndDialogs.cpp
   Создание кода...
   Lab_4.vcxproj -> C:\Users\Vintall\Desktop\labs\Labs\4-sem\OOP\Lab_4\Lab_4\x64\Debug\Lab_4.exe

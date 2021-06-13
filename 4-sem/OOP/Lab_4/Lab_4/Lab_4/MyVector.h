@@ -70,13 +70,6 @@ namespace MyVec
 		{
 			node = nullptr;
 		}
-		/*vector(int new_count)
-		{
-			node = new T[new_count];
-
-			for (int i = 0; i < new_count; ++i)
-				node[i] = 0;
-		}*/
 		~vector()
 		{
 			delete[] node;
