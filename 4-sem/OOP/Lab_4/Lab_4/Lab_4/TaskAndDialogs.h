@@ -129,6 +129,7 @@ public:
 	}
 	T Sum()
 	{
+		
 		if (container.begin() != container.end())
 		{
 			queue<T> buf = container;
